@@ -29,3 +29,10 @@ expect.extend({ toMatchImageSnapshot });
 
 expect(toPNG(obj)).toMatchImageSnapshot();
 ```
+
+<p align="center">
+  <img
+    alt="screenshot"
+    src="test/__image_snapshots__/to-png-test-js-to-png-should-create-a-png-snapshot-for-a-three-object-3-d-1-snap.png"
+  />
+</p>
