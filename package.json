@@ -1,6 +1,6 @@
 {
   "name": "node-three-screenshot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Take a PNG screenshot of a THREE scene",
   "homepage": "https://github.com/dbkaplun/node-three-screenshot",
   "repository": "https://github.com/dbkaplun/node-three-screenshot",
