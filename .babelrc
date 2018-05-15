@@ -1,0 +1,11 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "node": "8.9.4"
+      },
+      "useBuiltIns": true
+    }],
+    "stage-0"
+  ]
+}

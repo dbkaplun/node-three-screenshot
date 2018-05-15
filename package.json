@@ -1,0 +1,34 @@
+{
+  "name": "node-three-screenshot",
+  "version": "1.0.0",
+  "description": "Take a PNG screenshot of a THREE scene",
+  "homepage": "https://github.com/dbkaplun/node-three-screenshot",
+  "repository": "https://github.com/dbkaplun/node-three-screenshot",
+  "bugs": "https://github.com/dbkaplun/node-three-screenshot/issues",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rm -rf lib/ && babel -d lib/ src/",
+    "jest": "jest",
+    "eslint": "eslint .",
+    "test": "npm run eslint && npm run jest",
+    "preversion": "npm run build && git add -A lib/ && npm test"
+  },
+  "dependencies": {
+    "canvas": "^1.6.10",
+    "three": "^0.92.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.2",
+    "babel-jest": "^22.4.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "jest": "^22.4.3",
+    "jest-image-snapshot": "^2.4.1"
+  }
+}
