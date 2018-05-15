@@ -1,4 +1,4 @@
-# node-three-screenshot
+# node-three-screenshot [![Build Status](https://travis-ci.com/dbkaplun/node-three-screenshot.svg?branch=master)](https://travis-ci.com/dbkaplun/node-three-screenshot)
 Take a PNG screenshot of a THREE scene
 
 ## Usage
