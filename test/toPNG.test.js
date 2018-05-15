@@ -11,6 +11,10 @@ describe('toPNG', () => {
       new THREE.BoxGeometry(10, 10, 10),
       new THREE.MeshBasicMaterial({ color: 'green' }),
     );
-    expect(toPNG(obj)).toMatchImageSnapshot();
+    expect(toPNG(obj)).toMatchImageSnapshot({
+      // Minor difference between OSes
+      failureThreshold: '0.01',
+      failureThresholdType: 'percent',
+    });
   });
 });
