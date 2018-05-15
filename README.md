@@ -3,6 +3,8 @@ Take a PNG screenshot of a THREE scene
 
 ## Usage
 
+*[You will need to install the dependencies for node-canvas.](https://github.com/Automattic/node-canvas#compiling)*
+
 ```sh
 $ npm install node-three-screenshot
 ```
