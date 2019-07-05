@@ -1,4 +1,4 @@
-import Canvas from 'canvas';
+import { createCanvas } from 'canvas';
 
 import THREE from './three';
 
@@ -30,7 +30,7 @@ export default function toCanvas(scene, options) {
     camera.lookAt(outScene.position);
   }
 
-  const canvas = new Canvas(opts.width, opts.height);
+  const canvas = createCanvas(opts.width, opts.height);
   canvas.style = {}; // dummy shim to prevent errors during render.setSize
   const renderer = new THREE.CanvasRenderer({ canvas });
   renderer.setSize(opts.width, opts.height);

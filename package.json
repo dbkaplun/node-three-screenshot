@@ -14,8 +14,8 @@
     "preversion": "npm run build && git add -A lib/ && npm test"
   },
   "dependencies": {
-    "canvas": "^1.6.10",
     "three": "^0.106.2",
+    "canvas": "^2.5.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
